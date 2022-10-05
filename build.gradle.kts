@@ -26,18 +26,18 @@ subprojects {
 
 allprojects {
     plugins.withId("com.vanniktech.maven.publish.base") {
-        group = "io.github.tim06"
-        version = "1.0.14"
+        group = "io.github.dion"
+        version = "1.0.1"
 
         extensions.configure<com.vanniktech.maven.publish.MavenPublishBaseExtension> {
             publishToMavenCentral(com.vanniktech.maven.publish.SonatypeHost.S01)
             signAllPublications()
 
             pom {
-                name.set("VPN Protocols")
+                name.set("SOCKS Protocols")
                 description.set("Android VPN library.")
                 inceptionYear.set("2022")
-                url.set("https://github.com/tim06/VPNProtocols/")
+                url.set("https://github.com/DionGanteng/VPNProtocols/")
                 licenses {
                     license {
                         name.set("The Apache License, Version 2.0")
@@ -47,16 +47,16 @@ allprojects {
                 }
                 developers {
                     developer {
-                        id.set("tim06")
-                        name.set("Timur Hojatov")
-                        url.set("https://github.com/tim06")
-                        email.set("timhod06@gmail.com")
+                        id.set("dion")
+                        name.set("Dion Assydqi")
+                        url.set("https://github.com/DionGanteng")
+                        email.set("flasherdna@@gmail.com")
                     }
                 }
                 scm {
-                    url.set("https://github.com/tim06/VPNProtocols/")
-                    connection.set("scm:git:git://github.com/tim06/VPNProtocols.git")
-                    developerConnection.set("scm:git:ssh://git@github.com:tim06/VPNProtocols.git")
+                    url.set("https://github.com/DionGanteng/VPNProtocols/")
+                    connection.set("scm:git:git://github.com/DionGanteng/VPNProtocols.git")
+                    developerConnection.set("scm:git:ssh://git@github.com:DionGanteng/VPNProtocols.git")
                 }
             }
         }
