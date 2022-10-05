@@ -1,6 +1,5 @@
 # VPN Protocols
 Android client implementation of VPN. Supported protocols:
-- [x] OpenVPN
 - [x] ShadowsocksR
 - [ ] WireGuard
 - [ ] AnyConnect
@@ -9,18 +8,15 @@ Android client implementation of VPN. Supported protocols:
 Add library with Gradle
 ```
 # Groovy
-implementation 'io.github.tim06:openvpn:1.0.14'
-implementation 'io.github.tim06:shadowsocksr:1.0.14'
+implementation 'io.github.dion:shadowsocksr:1.0.14'
 
 # Kotlin
-implementation("io.github.tim06:openvpn:1.0.14")
-implementation("io.github.tim06:shadowsocksr:1.0.14")
+implementation("io.github.dion:shadowsocksr:1.0.14")
 ```
 Easy to use with delegate access
 ```
-import com.tim.openvpn.delegate.openVPN
-# or
-import com.tim.shadowsocksr.delegate.shadowsocksR
+
+import com.dion.shadowsocksr.delegate.shadowsocksR
 
 # Activity
 val openvpn by openVPN(OpenVPNConfig()) { state -> }
