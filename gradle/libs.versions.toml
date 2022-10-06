@@ -65,10 +65,10 @@ kotlin-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines
 viewbinding = { module = "com.github.kirich1409:viewbindingpropertydelegate", version.ref = "viewbinding" }
 
 # Lib
-tim-base = { module = "io.github.tim06:basevpnprotocols", version.ref = "vpnprotocols-version" }
-tim-notification = { module = "io.github.tim06:vpnprotocolsnotification", version.ref = "vpnprotocols-version" }
-tim-shadowsocksr = { module = "io.github.tim06:shadowsocksr", version.ref = "vpnprotocols-version" }
-tim-openvpn = { module = "io.github.tim06:openvpn", version.ref = "vpnprotocols-version" }
+tim-base = { module = "io.github.DionGanteng:basevpnprotocols", version.ref = "vpnprotocols-version" }
+tim-notification = { module = "io.github.DionGanteng:vpnprotocolsnotification", version.ref = "vpnprotocols-version" }
+tim-shadowsocksr = { module = "io.github.DionGanteng:shadowsocksr", version.ref = "vpnprotocols-version" }
+tim-openvpn = { module = "io.github.DionGanteng:openvpn", version.ref = "vpnprotocols-version" }
 
 # Test
 test-junit = { module = "junit:junit", version.ref = "junit" }
