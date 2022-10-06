@@ -4,7 +4,7 @@ plugins {
     id("kotlin-parcelize")
 }
 
-setupLibraryModule("com.tim.shadowsocksr", true)
+setupLibraryModule("com.dionganteng.shadowsocksr", true)
 
 dependencies {
     api(libs.tim.base)

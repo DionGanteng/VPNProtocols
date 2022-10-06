@@ -4,4 +4,4 @@ plugins {
     id("kotlin-parcelize")
 }
 
-setupLibraryModule("com.tim.basevpn", true)
+setupLibraryModule("com.dionganteng.basevpn", true)
