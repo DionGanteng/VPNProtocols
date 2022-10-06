@@ -50,7 +50,7 @@ allprojects {
                         id.set("dion")
                         name.set("Dion Assydqi")
                         url.set("https://github.com/DionGanteng")
-                        email.set("flasherdna@@gmail.com")
+                        email.set("flasherdna@gmail.com")
                     }
                 }
                 scm {
