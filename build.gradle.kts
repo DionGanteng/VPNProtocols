@@ -27,7 +27,7 @@ subprojects {
 allprojects {
     plugins.withId("com.vanniktech.maven.publish.base") {
         group = "io.github.DionGanteng"
-        version = "1.0.14"
+        version = "1.0.15"
 
         extensions.configure<com.vanniktech.maven.publish.MavenPublishBaseExtension> {
             publishToMavenCentral(com.vanniktech.maven.publish.SonatypeHost.S01)
