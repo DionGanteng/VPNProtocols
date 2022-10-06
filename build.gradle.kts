@@ -47,7 +47,7 @@ allprojects {
                 }
                 developers {
                     developer {
-                        id.set("dion")
+                        id.set("DionGanteng")
                         name.set("Dion Assydqi")
                         url.set("https://github.com/DionGanteng")
                         email.set("flasherdna@gmail.com")
