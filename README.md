@@ -8,15 +8,14 @@ Android client implementation of VPN. Supported protocols:
 Add library with Gradle
 ```
 # Groovy
-implementation 'io.github.dion:shadowsocksr:1.0.14'
+implementation 'io.github.DionGanteng:shadowsocksr:1.0.14'
 
 # Kotlin
-implementation("io.github.dion:shadowsocksr:1.0.14")
+implementation("io.github.DionGanteng:shadowsocksr:1.0.14")
 ```
 Easy to use with delegate access
 ```
 
-import com.dion.shadowsocksr.delegate.shadowsocksR
 
 # Activity
 val openvpn by openVPN(OpenVPNConfig()) { state -> }
