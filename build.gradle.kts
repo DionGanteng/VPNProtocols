@@ -34,7 +34,7 @@ allprojects {
             signAllPublications()
 
             pom {
-                name.set("SOCKS Protocols")
+                name.set("VPN Protocols")
                 description.set("Android VPN library.")
                 inceptionYear.set("2022")
                 url.set("https://github.com/DionGanteng/VPNProtocols/")
